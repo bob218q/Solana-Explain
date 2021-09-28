@@ -7,15 +7,15 @@ This high-performance blockchain provides the fully decentralized, secure, and h
 
 Solana uses a combination of proof-of-stake (PoS) and proof of history (PoH) consensus mechanisms to improve throughput and scalability. Consequently, the network claims to support 50,000 transactions per second (TPS), making it the fastest blockchain in the world.
 
-Solana’s core features
+#Solana’s core features
 To understand how Solana works, we first need to take a look at its architecture. Below are 8 core innovations that make Solana the first web-scale blockchain.
 
-1. Proof of history (PoH) — a clock before consensus
+1.Proof of history (PoH) — a clock before consensus
 Despite its name, PoH is not a consensus mechanism, but a cryptographic clock that enables nodes to agree on the time order of the events on the chain, without having to talk to each other — since each node has its own clock.
 
 PoH helps create more efficiency and higher throughput within the network by storing historical records of transactions and allowing the system to keep track of the order of events more easily.
 
-2. Tower BFT (Byzantine fault tolerance)
+2.Tower BFT (Byzantine fault tolerance)
 Tower BFT is Solana’s implementation of pBFT (practical Byzantine fault tolerance), optimized for PoH. In essence, this is a consensus algorithm that takes advantage of the cryptographic clock, reaching consensus without having to go through a multitude of messages among nodes — consequently improving the transaction speed.
 
 3. Gulf Stream — mempool-less transaction forwarding protocol
@@ -36,7 +36,7 @@ Cloudbreak is a data structure required for the network’s scalability and thro
 8. Archivers — distributed ledger storage
 Solana’s validators offload the data to a network of nodes known as Archivers. Archiver nodes can be basic laptops or PCs that the network leverages for data storage.
 
-4. How does Solana work?
+# How does Solana work?
 Solana is considered one of the most high-performance permissionless blockchain on the market, with a network of 200 distinct nodes that generate a throughput of 50,000 TPS when running with GPUs. The network achieves this due to its unique consensus architecture.
 
 Solana uses a proof-of-stake (PoS) consensus model, like Cardano and Tron, except it is reinforced by Tower BFT consensus. Tower consensus enables the network to reach consensus, despite potential attacks from malicious nodes.
@@ -50,3 +50,5 @@ Tower BFT leverages this permissionless clock to reduce the processing power nec
 Sealevel, Solana’s transaction parallelization system, also plays a fundamental role, by enabling parallel smart contract runtime. This optimizes the network’s resource usage and enables its horizontal scaling across GPUs and SSDs.
 
 Solana’s mempool system (contraction of memory and pool), Gulf Stream, is also different from other popular blockchains, as it forwards the transactions to validators before the previous set of transactions was even finalized. This mempool-less transaction forwarding protocol helps maximize transaction confirmation speed, as well as the concurrent and parallel transaction capacity of the network.
+
+# Conclusion
