@@ -13,7 +13,7 @@ To understand how Solana works, we first need to take a look at its architecture
 1. Proof of history (PoH) — a clock before consensus
 Despite its name, PoH is not a consensus mechanism, but a cryptographic clock that enables nodes to agree on the time order of the events on the chain, without having to talk to each other — since each node has its own clock.
 
-PoH helps create more efficiency and higher throughput within the network by storing historical records of transactions and allowing the system to keep track of the order of  events more easily.
+   PoH helps create more efficiency and higher throughput within the network by storing historical records of transactions and allowing the system to keep track of the order   of  events more easily.
 
 2. Tower BFT (Byzantine fault tolerance)
 Tower BFT is Solana’s implementation of pBFT (practical Byzantine fault tolerance), optimized for PoH. In essence, this is a consensus algorithm that takes advantage of the cryptographic clock, reaching consensus without having to go through a multitude of messages among nodes — consequently improving the transaction speed.
