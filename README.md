@@ -7,15 +7,15 @@ This high-performance blockchain provides the fully decentralized, secure, and h
 
 Solana uses a combination of proof-of-stake (PoS) and proof of history (PoH) consensus mechanisms to improve throughput and scalability. Consequently, the network claims to support 50,000 transactions per second (TPS), making it the fastest blockchain in the world.
 
-#Solana’s core features
+# Solana’s core features
 To understand how Solana works, we first need to take a look at its architecture. Below are 8 core innovations that make Solana the first web-scale blockchain.
 
-1.Proof of history (PoH) — a clock before consensus
+1. Proof of history (PoH) — a clock before consensus
 Despite its name, PoH is not a consensus mechanism, but a cryptographic clock that enables nodes to agree on the time order of the events on the chain, without having to talk to each other — since each node has its own clock.
 
-PoH helps create more efficiency and higher throughput within the network by storing historical records of transactions and allowing the system to keep track of the order of events more easily.
+PoH helps create more efficiency and higher throughput within the network by storing historical records of transactions and allowing the system to keep track of the order of  events more easily.
 
-2.Tower BFT (Byzantine fault tolerance)
+2. Tower BFT (Byzantine fault tolerance)
 Tower BFT is Solana’s implementation of pBFT (practical Byzantine fault tolerance), optimized for PoH. In essence, this is a consensus algorithm that takes advantage of the cryptographic clock, reaching consensus without having to go through a multitude of messages among nodes — consequently improving the transaction speed.
 
 3. Gulf Stream — mempool-less transaction forwarding protocol
