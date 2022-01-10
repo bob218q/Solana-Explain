@@ -1,6 +1,6 @@
 # SOLANA EXPLAIN
 
-## What is Solana? 
+## What is Solana?
 Solana is a web-scale, open-source blockchain protocol that supports developers and institutions around the world to build decentralized applications (DApps) and marketplaces. Solana’s protocol is fast, secure, and censorship-resistant, which provides the flexibility of an open infrastructure required to build applications for mass adoption.
 
 This high-performance blockchain provides the fully decentralized, secure, and highly scalable infrastructure necessary for tomorrow’s DApps and decentralized marketplaces. It leverages a set of breakthrough computational technologies that can support thousands of nodes, allowing for transaction throughput to proportionally scale with network bandwidth.
@@ -52,3 +52,4 @@ Sealevel, Solana’s transaction parallelization system, also plays a fundamenta
 Solana’s mempool system (contraction of memory and pool), Gulf Stream, is also different from other popular blockchains, as it forwards the transactions to validators before the previous set of transactions was even finalized. This mempool-less transaction forwarding protocol helps maximize transaction confirmation speed, as well as the concurrent and parallel transaction capacity of the network.
 
 ## Conclusion
+
